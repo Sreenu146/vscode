@@ -10,7 +10,7 @@ CORS(app)
 
 @app.route('/home', methods=['GET'])
 def welcome():
-    return "Welcome to VS Code Demo"
+    return "Welcome to Visual Studio Code Demo"
 
 
 @app.route('/welcome/<user>', methods=['GET'])
