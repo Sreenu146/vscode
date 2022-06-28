@@ -30,3 +30,7 @@ function greet(){
         }
     })
 }
+
+function redirect_url(){
+    window.open("https://www.google.com", "_self");
+}
